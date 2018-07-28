@@ -1,0 +1,71 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.DetailActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/colorTextToolbar</item>
+    </style>
+
+    <style name="Widget.Sandwich.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">12dp</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Sandwich.Logo</item>
+    </style>
+
+    <style name="Widget.Sandwich.CollapsingToolbar" parent="">
+        <item name="collapsedTitleTextAppearance">@style/TextAppearance.Sandwich.Logo</item>
+        <item name="contentScrim">?attr/colorPrimary</item>
+        <item name="expandedTitleGravity">center_horizontal|bottom</item>
+        <item name="expandedTitleMarginStart">32dp</item>
+        <item name="expandedTitleMarginBottom">48dp</item>
+        <item name="expandedTitleMarginTop">140dp</item>
+        <item name="expandedTitleTextAppearance">@style/TextAppearance.Sandwich.Logo</item>
+        <item name="scrimVisibleHeightTrigger">140dp</item>
+    </style>
+
+    <style name="Widget.Sandwich.CollapsingToolbarImage" parent="">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="TextAppearance.Sandwich.Logo" parent="TextAppearance.AppCompat.Display3">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorPrimary">@color/colorTextToolbar</item>
+        <item name="android:textColor">@color/colorTextToolbar</item>
+    </style>
+
+    <style name="Text.Title" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="android:fontFamily">@font/roboto_mono</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Body" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/colorBody</item>
+        <item name="android:fontFamily">@font/roboto_mono</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
