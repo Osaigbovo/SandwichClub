@@ -1,8 +1,8 @@
 # SandwichClub
 Udacity Android Developer Nanodegree Project
 
-- Learn how to submit projects for review
-- Practice JSON parsing to a model object
-- Design an activity layout
-- Populate all fields in the layout accordingly
+- Submitting a project for review and adhering to Code Quality guidelines.
+- Practice JSON parsing to a model object.
+- Design an activity layout using ConstraintLayout.
+- Populate all fields in the layout accordingly.
 
