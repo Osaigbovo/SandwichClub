@@ -48,11 +48,13 @@ public class JsonUtils {
 
         } catch (JSONException e) {
             Log.e(TAG, e.getMessage());
-            e.printStackTrace();
             return null;
         }
     }
 
+    /*
+     * Convert JSONArrey to List
+     * */
     private static List<String> jsonArrayToList(JSONArray jsonArray) throws JSONException {
 
         List<String> list = new ArrayList<>(jsonArray.length());
