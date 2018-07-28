@@ -80,12 +80,12 @@ public class DetailActivity extends AppCompatActivity {
             }
             textKnownAs.setText(stringBuilder.toString());
         } else {
-            textKnownAs.setText("");
+            textKnownAs.setText(getResources().getString(R.string.detail_empty_text));
         }
 
         // Check if empty, and set PlaceOfOrigin text
         if (sandwich.getPlaceOfOrigin().isEmpty()) {
-            textOrigin.setText("");
+            textOrigin.setText(getResources().getString(R.string.detail_empty_text));
         } else {
             textOrigin.setText(sandwich.getPlaceOfOrigin());
         }

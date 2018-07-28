@@ -7,6 +7,7 @@
     <string name="detail_description_label">Description:</string>
     <string name="detail_ingredients_label">Ingredients:</string>
 
+    <!-- Placeholder Texts -->
     <string name="detail_also_known_as_text">Ham and cheese sandwich</string>
     <string name="detail_place_of_origin_text">New Zealand</string>
     <string name="detail_description_text">A ham and cheese
@@ -25,7 +26,7 @@
     <string name="sandwich_picture_content_description">Sandwich picture</string>
 
     <!-- Emoty Text-->
-    <string name="detail_empty_text"></string>
+    <string name="detail_empty_text"> </string>
 
     <!-- Error messages-->
     <string name="detail_error_message">Sandwich data not available</string>
