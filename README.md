@@ -1,10 +1,9 @@
 # SandwichClub
 
-SandwichClub created as a part of Udacity Android Developer Nanodegree Program. The Android application parses JSON data using native API.
+SandwichClub was created as a part of the Udacity Android Developer Nanodegree Program. The Android application parsed JSON data using native API.
 
 
 ## Screenshots
------------
 
 <img src="https://github.com/Osaigbovo/SandwichClub/blob/master/art/home.png" width="240" title="Home"><img src="https://github.com/Osaigbovo/SandwichClub/blob/master/art/sandwich_one.png" width="240" title="Sandwich"><img src="https://github.com/Osaigbovo/SandwichClub/blob/master/art/sandwich_two.png" width="240" title="Sandwich B">
 
@@ -20,7 +19,7 @@ Building a layout and populating its fields from data received as JSON is a comm
 * Populate all fields in the layout accordingly.
 
 
-#£ License
+## License
 
 	MIT License
 	
